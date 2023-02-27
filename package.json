@@ -6,11 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate": "mesh build",
+    "mesh": "mesh dev"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/server": "^11.10.0",
+    "@graphql-mesh/cli": "^0.82.23",
+    "@graphql-mesh/graphql": "^0.34.6",
     "@mantine/core": "^5.10.5",
     "@mantine/hooks": "^5.10.5",
     "@mantine/next": "^5.10.5",
@@ -19,6 +23,7 @@
     "@types/react-dom": "18.0.11",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.1",
+    "graphql": "^16.6.0",
     "next": "13.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",

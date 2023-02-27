@@ -1,0 +1,14 @@
+documents:
+  - ./src/**/*.graphql
+
+sources:
+  - name: sampleSource
+    handler:
+      graphql:
+        endpoint: https://countries.trevorblades.com/
+# additionalTypeDefs:
+#   - ./src/mesh/typeDefs.ts
+
+# additionalResolvers:
+#   - ./src/mesh/resolvers
+
